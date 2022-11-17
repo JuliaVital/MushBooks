@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e847091e75.js" crossorigin="anonymous"></script>
+    <title>MushBooks | O Melhor Site de Livros</title>
+</head>
+
+<body>
+        <header>
+            <div class="container-grid conteudo-header">
+                <img class="logo" src="./img/icone mushbook.png" alt="Logo MushBook">
+                <nav id="menu-header" class="menu-header">
+                    <a class="linkMenu" hreaf="index.html">Home</a>
+                    <a class="linkMenu" hreaf="video.html">Videos</a>
+                    <a class="linkMenu" hreaf="contato.html">Contato</a> 
+                </nav>
+                <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+                    <i id="icone-menu" class="fas fa-bars"></i>
+                </a>
+            </div>
+        </header>
+
+           <!-- Início Formulário -->
+           <div class="col-md-6">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-left header">Preencha suas informações:</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="Insira seu primeiro nome" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Insira seu último nome" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="email" placeholder="Insira seu e-mail" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Insira seu telefone" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea id="message" name="message"  placeholder="Insira sua mensagem que retornaremos em até 2 dias úteis" class="form-control" rows="7" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="formbutton">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>     
+        <!-- Fim Formulario -->
+

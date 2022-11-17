@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,24 +11,21 @@
 
 <body>
 
-    <header>
-
         <header>
-            <div class="container-grid conteudo-header">
+            <!--<div class="container-grid conteudo-header">-->
                 <img class="logo" src="./img/icone mushbook.png" alt="Logo MushBook">
-                <nav id="menu-header" class="menu-header">
-                    <a class="linkMenu" hreaf="home.html">Home</a>
-                    <a class="linkMenu" hreaf="video.html">Videos</a>
-                    <a class="linkMenu" hreaf="contato.html">Contato</a> 
+                <nav id="nav">
+                    <ul id="menu" role="menu">
+                    <li><a class="linkMenu" hreaf="index.html">Home</a></li>
+                    <li><a class="linkMenu" hreaf="video.html">Videos</a></li>
+                    <li><a class="linkMenu" hreaf="contato.html">Contato</a></li>
+                  </ul>
                 </nav>
-                <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
-                    <i id="icone-menu" class="fas fa-bars"></i>
-                </a>
-            </div>
+           <!-- </div> -->
         </header>
 
 
-      <!--Carousel-->
+    <!--Carousel-->
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
          <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="500">
@@ -72,6 +69,78 @@
 
     <!--Carousel fim-->
 
+    <!-- Início Galeria -->
+    <div class="galeria d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+
+            <div class="col-12">
+                <section class="texto-galeria">
+                    <h2>Veja nossos destaques mensais!</h2>
+                </section>
+            </div>
+
+                <!--Inicio imagem 1 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro1.jpg"
+                    alt="img-galeria"> 
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <!--Fim imagem 1 da galeria-->
+                
+                <!--Inicio imagem 2 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro2.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                
+                <!--Inicio imagem 3 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro3.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                
+                <!--Inicio imagem 4 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro4.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                
+                <!--Inicio imagem 5 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro5.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+                
+                <!--Inicio imagem 6 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro6.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+                
+                <!--Inicio imagem 7 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro7.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+                
+                <!--Inicio imagem 8 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/livro8.jpg"
+                    alt="img-galeria">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+ 
+    <!--Fim Galeria-->
 
     <!---rodapé-->
     <footer>
@@ -80,4 +149,7 @@
      <!---rodapé fim-->
 
     </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
