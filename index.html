@@ -10,11 +10,12 @@
 </head>
 
 <body>
-
-
         <header id="header">
                 <a id="logo" href="index.html"><img src="./img/icone mushbook.png" alt="Logo MushBooks"></a>
                 <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false">
+                        <span id="hamburger"></span>
+                    </button>
                     <ul id="menu" role="menu">
                         <li><a class="linkMenu" href="index.html">Home</a></li>
                         <li><a class="linkMenu" href="video.html">Resenhas</a></li>
@@ -67,6 +68,27 @@
       </div>
 
     <!--Carousel fim-->
+
+    <!--banner? novidades?-->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                    <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/bienal-banner.jpg" class="img-fluid" alt="banner-home">
+                    </figure>
+                </div>
+            <div class="col-12 col-md-6">
+                <section class="texto-banner d-none d-md-block">
+                    <h1>Participe da Maior Feira de Livros da America Latina</h1>
+                    <p class="d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam voluptatibus ea quis recusandae, deleniti temporibus, ratione mollitia totam iste nam quisquam deserunt illum dolores nesciunt libero? Nulla, quaerat? A! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reiciendis natus vel distinctio dolorum fugit exercitationem expedita culpa quos maxime soluta, excepturi consectetur sapiente qui aliquam odio quia doloribus rem.
+                    </p>
+                    <a hreaf="jogos.html">Saiba mais...</a>
+                </section>
+               </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Início Galeria -->
     <div class="galeria d-flex align-items-center">
@@ -147,8 +169,10 @@
     </footer>
      <!---rodapé fim-->
 
-    </body>
+</body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/script_menu.js"></script>
+
 
 </html>

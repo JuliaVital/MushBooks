@@ -13,6 +13,9 @@
         <header id="header">
                 <a id="logo" href="index.html"><img src="./img/icone mushbook.png" alt="Logo MushBooks"></a>
                 <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false">
+                        <span id="hamburger"></span>
+                    </button>
                     <ul id="menu" role="menu">
                         <li><a class="linkMenu" href="index.html">Home</a></li>
                         <li><a class="linkMenu" href="video.html">Resenhas</a></li>
@@ -21,34 +24,63 @@
                 </nav>
         </header>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                <section class="endereco" id="endereco">
-                    <div class="container-grid conteudo-endereco">
-                        <h2>Endereço:</h2>
-                        <div class="container-mapa">
-                            <iframe class="mapa-responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.562331701753!2d-46.6462036!3d-23.5364375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb23619858bc7e63e!2sEscola%20SENAI%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1666915485280!5m2!1spt-BR!2sbr" width="850" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!--Mapa Formsssssssssss-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <section class="endereco" id="endereco">
+                        <div class="container-grid conteudo-endereco">
+                            <h2>Endereço:</h2>
+                            <div class="container-mapa">
+                                <iframe class="mapa-responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.562331701753!2d-46.6462036!3d-23.5364375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb23619858bc7e63e!2sEscola%20SENAI%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1666915485280!5m2!1spt-BR!2sbr" width="850" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
-                       </div>
-                     </div>
+                    </div>
                 </section>
-
+                
                 <!--FORMS-->
-                    <div class="col">
+                <div class="col">
                     <form class="form" action="/action_page.php">
-                        <label for="fname">First name:</label><br>
+                        <label for="fname">Nome:</label><br>
                         <input type="text" id="fname" name="fname" value="Nome"><br>
-                        <label for="lname">Last name:</label><br>
+                        <label for="lname">Sobrenome:</label><br>
                         <input type="text" id="lname" name="lname" value="Sobrenome"><br><br>
+                        <label for="lname">Mensagem:</label><br>
+                        <input type="text" id="mname" name="mname" value="Mensagem"><br><br>
                         <input type="submit" value="Submit">
                     </form>
                 </div>
-                   <!--FIM FORMS-->
+            </div>
+        </div>
+
+        <!---Banneeeeeeeeeeeeeeeeeer-->
+
+            <!--Banneeeeeeeeeeeeer-->
+            <div class="section-banner-home">
+                <div class="container-fluid">
+                    <div class="row m-0">
+                            <div class="col-12 col-md-6">
+                            <figure>
+                                <img src="./img/bienal-banner.jpg" class="img-fluid" alt="banner-home">
+                            </figure>
+                        </div>
+                    <div class="col-12 col-md-6">
+                        <section class="texto-banner d-none d-md-block">
+                            <h1>Participe da Maior Feira de Livros da America Latina</h1>
+                            <p class="d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam voluptatibus ea quis recusandae, deleniti temporibus, ratione mollitia totam iste nam quisquam deserunt illum dolores nesciunt libero? Nulla, quaerat? A! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio molestias sequi nisi eos culpa, aperiam eveniet unde soluta vero earum at dolorum reprehenderit possimus aliquam, debitis praesentium velit odit temporibus?
+                            </p>
+                            <a hreaf="jogos.html">Saiba mais...</a>
+                        </section>
+                    </div>
+                    </div>
                 </div>
-           </div>
-    <!---rodapé-->
-    <footer>
-        <span>Cpyright &copy; 2022 | Todos os direitos reservados a seus respectivos autores e editoras.</span>
-    </footer>
-     <!---rodapé fim-->
+            </div>
+
+            <!---rodapé-->
+            <footer>
+                <span>Cpyright &copy; 2022 | Todos os direitos reservados a seus respectivos autores e editoras.</span>
+            </footer>
+            <!---rodapé fim-->
+</body>
+     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="./js/script_menu.js"></script>

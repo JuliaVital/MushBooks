@@ -66,6 +66,38 @@ body, ul {
     }
     /*Fim CSS Galeria*/
 
+    /*Banner*/
+
+    .section-banner-home {
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        margin: 18px auto;
+        background-color: rgb(90, 10, 54);
+    }
+    .section-banner-home .texto-banner {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    .section-banner-home .texto-banner h1 {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 500;
+        padding-bottom: 20px; /*Margem interna do texto*/
+        color: #bdff06;
+    }
+    .section-banner-home .texto-banner p {
+        font-size: 15px;
+        margin-bottom: 20px; /*Margem externa abaixo do texto*/
+        color: #fff;
+    }
+    .section-banner-home .texto-banner a {
+        color: rgb(48, 51, 238);
+        text-decoration: none;
+        background-color: #fff;
+        padding: 4px 14px;
+        font-size: 15px;
+    }
 
 
 footer {
@@ -114,7 +146,7 @@ footer span {
         padding-top: 30px;
         padding-bottom: 0px;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 2px solid rgb(255, 255, 255);
     }
     #nav.active #menu {
         height: calc(100vh - 70px); 
@@ -140,13 +172,13 @@ footer span {
         display: block;
         width: 25px;
         height: 2px;
-        background: currentColor;
+        background: white;
         margin-top: 5px;
         transition: 0.3s;
         position: relative;
     }
     #nav.active #hamburger {
-        border-top-color: transparent;
+        border-top-color: white;
     }
     #nav.active #hamburger::before {
         transform: rotate(135deg);
@@ -186,8 +218,8 @@ footer span {
 
 .form{
         position: relative;
-        width: 100%;
-        padding: 12px 20px;
+        width: 120%;
+        padding: 12px 25px;
         margin: 8px 0;
         padding-top: 20%;
         box-sizing: border-box;
@@ -196,9 +228,29 @@ footer span {
     }
     
     .videos {
-        width: 40%;
-        align-content: flex-end;
+        /*width: 110%;
+        position: relative;
+        border: transparent;
+        border-radius: 1px;*/
+        position: relative;
+        padding-bottom: 0;
+        height: auto;
+        max-width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .h1, h1 {
+        text-decoration: solid;
+        color-scheme: rgb(255, 0, 0);
+    }
+
+    .p {
         text-align: center;
+        color: #000000;
     }
     
     .p {

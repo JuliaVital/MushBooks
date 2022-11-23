@@ -15,6 +15,9 @@
     <header id="header">
         <a id="logo" href="index.html"><img src="./img/icone mushbook.png" alt="Logo MushBooks"></a>
         <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
             <ul id="menu" role="menu">
                 <li><a class="linkMenu" href="index.html">Home</a></li>
                 <li><a class="linkMenu" href="video.html">Resenhas</a></li>
@@ -23,23 +26,49 @@
         </nav>
     </header>
 
-<!--VIDEOSSSSSSSSSS-->
-    <div class="conteudo-resenha"
-        <div class="videos">
+    
+    <!--VIDEOSSSSSSSSSS-->
+    
+    <div class="videos">
+        <h1>Os top livros mais comentados da semana!!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ab obcaecati natus dicta quae libero saepe esse officia assumenda a quam voluptatibus quas perferendis, molestiae labore! Illum doloremque odio iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore esse ut et iste. Officia molestias asperiores natus amet consequuntur eaque doloremque cum saepe est beatae ad, nihil accusamus sint magni.</p>
+        
+        <div class="embed-container">
             <div class="row">
-                <div class="col">
-                   <iframe width="560" height="315" src="https://www.youtube.com/embed/JEsNpoYSiY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatum dolorum adipisci iure ab tempore accusantium pariatur accusamus alias    quisquam similique labore delectus quidem a corporis dolore deserunt, nemo magnam.</p>
-               </div>
-                <div class="row">
-                    <div class="col">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WM-nG45e8OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></p></iframe>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad id illo cupiditate expedita amet, natus aliquam molestias nam pariatur sed, blanditiis magni aliquid commodi minus quae dignissimos voluptatibus accusantium illum.
-                    </div>
+                <div class="col-6 col-md-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JEsNpoYSiY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-           </div>
+                <div class="col-6 col-md-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WM-nG45e8OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-6 col-md-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-QJHo7u1NYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!--Banneeeeeeeeeeeeer-->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                    <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/bienal-banner.jpg" class="img-fluid" alt="banner-home">
+                    </figure>
+                </div>
+            <div class="col-12 col-md-6">
+                <section class="texto-banner d-none d-md-block">
+                    <h1>Participe da Maior Feira de Livros da America Latina</h1>
+                    <p class="d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam voluptatibus ea quis recusandae, deleniti temporibus, ratione mollitia totam iste nam quisquam deserunt illum dolores nesciunt libero? Nulla, quaerat? A! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio molestias sequi nisi eos culpa, aperiam eveniet unde soluta vero earum at dolorum reprehenderit possimus aliquam, debitis praesentium velit odit temporibus?
+                    </p>
+                    <a hreaf="jogos.html">Saiba mais...</a>
+                </section>
+               </div>
+            </div>
+        </div>
+    </div>
+    
     <!---rodapé-->
     <footer>
         <span>Cpyright &copy; 2022 | Todos os direitos reservados a seus respectivos autores e editoras.</span>
@@ -49,5 +78,7 @@
     </body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/script_menu.js"></script>
+
 
 </html>
